@@ -9,6 +9,11 @@ export default function TabLayout() {
       <Stack.Screen name="home" />
       <Stack.Screen name="login" />
       <Stack.Screen name="signUp" />
+      <Stack.Screen name="profile" />
+      <Stack.Screen name="scan" />
+      <Stack.Screen name="todo" />
+      <Stack.Screen name="pass" />
+      <Stack.Screen name="about" />
     </Stack>
   );
 }

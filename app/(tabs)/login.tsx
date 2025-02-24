@@ -72,7 +72,7 @@ export default function Login() {
     const onSubmit = async (data: { email: string; password: string }) => {
         setLoading(true);
         try {
-            const response = await axios.post('http://15.15.10.15:8000/api/login', data, {
+            const response = await axios.post('http://15.15.3.218:8000/api/login', data, {
                 headers: {
                     "Content-Type": "application/json"
                 }

@@ -276,7 +276,6 @@ const AttendanceScreen: React.FC = () => {
             </View>
 
             <ScrollView
-                style={styles.content}
                 refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
             >
                 <View style={styles.line} />
@@ -336,7 +335,6 @@ const AttendanceScreen: React.FC = () => {
                             );
                         })
                     )}
-
                 </View>
 
             </ScrollView>
@@ -344,13 +342,13 @@ const AttendanceScreen: React.FC = () => {
 
             <View style={styles.footer}>
                 <Link href="/home" style={styles.iconContainer}>
-                    <Ionicons name="home" size={28} color="#00509F" />
+                    <Ionicons name="home" size={28} color="#666666" />
                 </Link>
                 <Link href="/attendance" style={styles.iconContainer}>
-                    <Ionicons name="newspaper" size={28} color="#666666" />
+                    <Ionicons name="newspaper" size={28} color="#00509F" />
                 </Link>
                 <Link href="/scan" style={styles.iconContainer}>
-                    <Ionicons name="qr-code-sharp" size={29} color="#666666" />
+                    <Ionicons name="camera-sharp" size={29} color="#666666" />
                 </Link>
                 <Link href="/todo" style={styles.iconContainer}>
                     <Ionicons name="book" size={28} color="#666666" />
